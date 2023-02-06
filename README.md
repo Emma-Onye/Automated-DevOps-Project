@@ -176,7 +176,7 @@
 
         2)  - Click on Manage Jenkins --> Configure System
             - Go to section Prometheus
-            - Collecting metrics period in seconds: **15**
+            - Collecting metrics period in seconds: **20**
             - Click on Save
 
         3)  - Click on Manage Jenkins --> Configure System
@@ -232,7 +232,7 @@ Nothing to be done for the Ansible setup as the jenkins server already created t
 
 Copy your Prometheus Public IP Address and paste on the browser = http:://PrometheusServerExternalIP:9090
 
-Note: Prometheus setup is also full automated, so just verifying the health of servers are required
+Note: Prometheus setup is also fully automated, so just verifying the health of servers are required
 
 1)  #### Checking targets health:
     - Once prometheus accessed --> Status --> Targets (for the health checkup)
@@ -282,7 +282,7 @@ Copy your Grafana Public IP Address and paste on the browser = http:://GrafanaSe
         - Scrol down to "Prometheus" and select the "Data Source" you defined ealier which is "Prometheus"
         - CLICK on "Import"
         - Save
-    - Refresh your Grafana Dashbaord 
+    - Refresh your Grafana Dashboard 
         - Click on the "Drop Down" for "Host" and select any of the "Instances(IP)"
 
 
